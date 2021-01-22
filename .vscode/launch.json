@@ -1,0 +1,33 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "test",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "/data/lyh/MultiWOZ/my-damd/",
+            "justMyCode": false,
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "1"
+            },
+            "args": [
+                "-mode", "train",
+                "-cfg", 
+                "seed=1234", "cuda_device=0",
+                "model=GateFlowNet",
+                "multi_act_fusion=True",
+                "multi_acts_path=data/multi-woz-processed/multi_act_reference_rank_50.json",
+                "multi_act_sampling_num=5",
+                "cand_act_gate=True",
+                "epoch_num=1",
+                "batch_size=20",
+                "report_interval=1",
+             ]
+        }
+    ]
+}

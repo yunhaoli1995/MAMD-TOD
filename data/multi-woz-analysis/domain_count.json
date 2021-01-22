@@ -1,0 +1,23 @@
+{
+  "hotel_single": 6960,
+  "police_single": 1494,
+  "taxi_single": 3334,
+  "hospital_single": 1900,
+  "restaurant_single": 11518,
+  "train_single": 3542,
+  "attraction_single": 1154,
+  "hotel_multi": 59752,
+  "train_multi": 58054,
+  "restaurant_multi": 55926,
+  "attraction_multi": 52560,
+  "taxi_multi": 29554,
+  "hotel_train": 21788,
+  "restaurant_attraction": 7738,
+  "attraction_train": 17364,
+  "hotel_attraction_taxi": 9758,
+  "restaurant_train": 18902,
+  "restaurant_hotel": 9490,
+  "hotel_attraction": 8310,
+  "restaurant_hotel_taxi": 10406,
+  "restaurant_attraction_taxi": 9390
+}

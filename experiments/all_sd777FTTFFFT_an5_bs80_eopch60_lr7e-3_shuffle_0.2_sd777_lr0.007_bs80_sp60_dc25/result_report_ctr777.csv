@@ -1,0 +1,2 @@
+exp,true_bspn,true_aspn,decode,param,nbest,selection_sheme,match,success,bleu,act_f1,avg_act_num,avg_diverse
+experiments/all_sd777FTTFFFT_an5_bs80_eopch60_lr7e-3_shuffle_0.2_sd777_lr0.007_bs80_sp60_dc25/,True,False,greedy,,5,high_test_act_f1,95.19519519518566,87.88788788787909,18.753481582409435,51.022715034297065,1.7253195539842028,2.44166440032632

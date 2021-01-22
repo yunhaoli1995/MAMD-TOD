@@ -1,0 +1,50 @@
+{
+  "restaurant": [
+    "phone",
+    "postcode",
+    "address",
+    "pricerange",
+    "food",
+    "area"
+  ],
+  "hotel": [
+    "address",
+    "postcode",
+    "internet",
+    "phone",
+    "parking",
+    "type",
+    "pricerange",
+    "stars",
+    "area"
+  ],
+  "attraction": [
+    "entrance fee",
+    "type",
+    "address",
+    "postcode",
+    "phone",
+    "area"
+  ],
+  "train": [
+    "duration",
+    "leaveat",
+    "price",
+    "arriveby",
+    "trainid"
+  ],
+  "taxi": [
+    "car type",
+    "phone"
+  ],
+  "police": [
+    "postcode",
+    "address",
+    "phone"
+  ],
+  "hospital": [
+    "address",
+    "phone",
+    "postcode"
+  ]
+}
