@@ -101,7 +101,7 @@ class _Config:
 
         #Added by lyh
         #Model setting
-        self.model = 'damd' #'damd' or 'GateFlowNet'
+        self.model = 'MAMD' #'damd' or 'MAMD'
         self.generate_bspn = True
         self.copy_bspn = True
         self.copy_dspn = False
